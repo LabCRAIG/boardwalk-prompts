@@ -1,0 +1,18 @@
+1. General Information
+    - Game name: Orchid
+    - Number of players: 2
+2. Equipment
+    - Board dimensions: 5x5
+    - List of pieces: A, B
+    - Initial board setup: Board empty
+    - Piece distribution: Twelve pieces per player. Player 1 controls A’s, Player 2 controls B’s.
+3. Gameplay
+    - Turn order: Players alternate, taking one action per turn. Player 1 begins.
+    - Valid player actions: The game has two phases. During the first phase, players place two of their pieces at a time onto any free space, except for the very middle of the board. Once all pieces have been placed, the second phase begins. During the second phase, players can move one of their pieces orthogonally any distance.
+    - Piece characteristics: Both piece types are equivalent.
+    - Win/loss conditions: The player who captures all of the opponent's pieces wins.
+4. Additional rules
+    
+    During the second phase, if the moved piece causes an opponent’s piece to be sandwiched between it and another of the acting player’s pieces, then the opponent’s piece is captured. It is possible to capture more than one piece this way, one piece per orthogonal direction.
+    
+    If a player is unable to make a move, they pass their turn and the opponent plays again.

@@ -1,0 +1,27 @@
+1. General Information
+    - Game name: Amethyst
+    - Number of players: 2
+2. Equipment
+    - Board dimensions: 8x8
+    - List of pieces: A, O, Â, Ô
+    - Initial board setup: Top two rows are
+        
+        _O_O_O_O
+        
+        O_O_O_O_
+        
+        Bottom two rows are
+        
+        _A_A_A_A
+        
+        A_A_A_A_
+        
+    - Piece distribution: Player 1 may only move A and Â pieces. Player 2 may only move O and Ô pieces. The only pieces are the ones initially on the board.
+3. Gameplay
+    - Turn order: Player 1 begins. If the current player captures an opposing piece and may immediately capture another piece, then they continue playing. Otherwise, players alternate with one action per turn.
+    - Valid player actions: Players may move a piece to a free space, or capture an opposing piece if directly beyond it is a free space.
+    - Piece characteristics: All pieces may only move diagonally. A’s and O’s can only move one space at a time, or capture immediately adjacent opposing pieces. A’s may only move upward, and O’s may only move downward. Â’s and Ô’s may move both upward and downward, and may capture an opposing piece any distance away, so long as there is a free space after it and all spaces between the it and the captured piece are also free.
+    - Win/loss conditions: If a player loses all their pieces, or has no valid moves to make, they lose. In that case, the other player wins.
+4. Additional rules
+    
+    When a piece is captured, it is removed from play forever. When an A reaches the topmost row, it becomes an Â. When an O reaches the bottommost row, it becomes an Ô.

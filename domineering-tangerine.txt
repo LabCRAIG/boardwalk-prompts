@@ -1,0 +1,16 @@
+1. General Information
+    - Game name: Tangerine
+    - Number of players: 2
+2. Equipment
+    - Board dimensions: 6x6
+    - List of pieces: H, V
+    - Initial board setup: All spaces left blank
+    - Piece distribution: Player 1 has infinite H’s, Player 2 has infinite V’s.
+3. Gameplay
+    - Turn order: Players alternate, placing one piece per turn. Player 1 begins.
+    - Valid player actions: Each turn, a player may place a piece on a free space.
+    - Piece characteristics: Both piece types occupy 2 spaces each. When an H is positioned, another H is positioned to its immediate right. Likewise, when a V is positioned, another V is positioned immediately upward to it. Therefore, both piece types require both spaces to be free in order to be placed.
+    - Win/loss conditions: If a player has no moves they can make, they lose. The other player wins.
+4. Additional rules
+    
+    None

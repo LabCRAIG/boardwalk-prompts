@@ -1,0 +1,16 @@
+1. General Information
+    - Game name: Violet
+    - Number of players: 2
+2. Equipment
+    - Board dimensions: 10x10
+    - List of pieces: A, V, X
+    - Initial board setup: V’s in positions (0,3), (0,6), (3,0), (3,9). A’s in positions (6,0), (6,9), (9,3), (9,6).
+    - Piece distribution: Player 1 only controls A’s. Player 2 only controls V’s. All movable pieces start on the board. X’s are infinite and shared between the players.
+3. Gameplay
+    - Turn order: Players alternate, taking one action per turn. Player 1 begins.
+    - Valid player actions: Each turn, players must both: move one of their pieces into a free space, and then shoot an X from the moved piece. That pair of moves counts as one action.
+    - Piece characteristics: A’s and V’s are equivalent. They may move in any orthogonal or diagonal direction, any number of spaces, so long as all spaces between their origin and destination are free. X’s, once placed, cannot be moved. Their purpose is only to block other pieces.
+    - Win/loss conditions: The player who cannot move any of their pieces loses. The other player wins.
+4. Additional rules
+    
+    X’s are “shot” from an A or V. Once the shooter piece has moved, the acting player places an X on a free space on the shooter’s line of sight - that is, a free space which the shooter would be able to move to from their current position.

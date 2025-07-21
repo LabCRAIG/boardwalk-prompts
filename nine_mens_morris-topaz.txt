@@ -1,0 +1,18 @@
+1. General Information
+    - Game name: Topaz
+    - Number of players: 2
+2. Equipment
+    - Board dimensions: 7x7
+    - List of pieces: A, B
+    - Initial board setup: Only spaces belonging to the central row, central column, and main diagonals (except for the very center of the board) are valid and left blank. The rest are invalid spaces.
+    - Piece distribution: Each player has 9 pieces they can play. Player 1 has A’s, Player 2 has B’s.
+3. Gameplay
+    - Turn order: Each player takes one action per turn. Player 1 begins.
+    - Valid player actions: The game is played in two phases. During the first phase, players may place one of their pieces on a free spot on the board. This lasts until all pieces have been placed. Then begins the second phase, during which players may move a single piece at a time to an adjacent free space. If a capture condition is met during either phase, then the acting player can freely choose one of the opponent’s pieces to remove from the board.
+    - Piece characteristics: A and B are equivalent pieces.
+    - Win/loss conditions: A player loses if they have only 2 pieces left, or if they can’t move any of their pieces. The other player wins.
+4. Additional rules
+    
+    An adjacent space is the closest space in the same row or column. Pieces may not move diagonally.
+    
+    A capture condition is met when the last action taken causes three pieces of the same type to line up in a row or column.

@@ -1,0 +1,16 @@
+1. General Information
+    - Game name: Quartz
+    - Number of players: 2
+2. Equipment
+    - Board dimensions: 8x8
+    - List of pieces: A, V
+    - Initial board setup: The center 2x2 square of the board is occupied by 2 A’s and 2 V’s, each pair on a diagonal. The remaining spaces are blank.
+    - Piece distribution: Player 1 has infinite A’s, Player 2 has infinite V’s.
+3. Gameplay
+    - Turn order: Each player takes one action per turn. Player 1 begins. If there are no valid moves a player can make, they pass their turn.
+    - Valid player actions: A player may place one of their own pieces on any free space which is adjacent (orthogonally or diagonally) with an opposing piece and colinear (orthogonally or diagonally) with one of their own pieces in the same line as the adjacency, such that one or more of the opponent’s pieces are “sandwiched” between two of the player’s pieces. A player may only place one of their own pieces.
+    - Piece characteristics: Both piece types are equivalent.
+    - Win/loss conditions: The game ends when the board is full or neither player can make a move. The player with the most of their piece on the board wins.
+4. Additional rules
+    
+    When a piece is placed, all opposing pieces between the placed piece and another of the player’s pieces turn into the player’s piece type. This applies for all contiguous lines of opposing pieces with player’s pieces at the ends, where one of the latter is the piece just placed.

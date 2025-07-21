@@ -1,0 +1,35 @@
+1. General Information
+    - Game name: Obsidian
+    - Number of players: 2
+2. Equipment
+    - Board dimensions: 8x8
+    - List of pieces: A, B, C, D, E, F, a, b, c, d, e, f
+    - Initial board setup: Top two rows are
+        
+        ABCDECBA
+        
+        FFFFFFFF
+        
+        Bottom two rows are
+        
+        ffffffff
+        
+        abcdecba
+        
+    - Piece distribution: The only pieces are the ones initially on the board. Player 1 controls a, b, c, d, e, f. Player 2 controls A, B, C, D, E, F.
+3. Gameplay
+    - Turn order: Each player takes one action per turn. Player 1 begins.
+    - Valid player actions: Players must move one piece per turn.
+    - Piece characteristics:
+        - F and f may only move one space forward at a time, if the destination space is free. They can capture enemies only in a diagonal, being one space forward and one to either side. If the piece has not moved yet in the game, it may move two spaces forward instead of one.
+        - A and a may move any number of spaces orthogonally, provided all the spaces between the starting and the destination positions are free. They may capture an opposing piece by moving into its space.
+        - C and c may move any number of spaces diagonally, provided all the spaces between the starting and the destination positions are free. They may capture an opposing piece by moving into its space.
+        - B and b may move in any combination of two spaces in one orthogonal direction, and one space in a direction orthogonal to the first one (e.g. 2 up, 1 left). Only the destination space matters, needing to be either free or occupied by an opposing piece, which is captured.
+        - E and e may move in any direction, orthogonal or diagonal, any number of spaces, provided all the spaces between the starting and the destination positions are free. They may capture an opposing piece by moving into its space.
+        - D and d may move in any direction, orthogonal or diagonal, one space at a time, provided the destination space is either free or occupied by an opposing piece.
+    - Win/loss conditions: The player to capture the opponent’s D or d wins.
+4. Additional rules
+    
+    If an f reaches the top row, it becomes an e. Likewise, if an F reaches the bottom row, it becomes an E.
+    
+    “forward” means downward for uppercase pieces, and upward for lowercase pieces.

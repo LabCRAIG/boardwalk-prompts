@@ -1,0 +1,16 @@
+1. General Information
+    - Game name: Peridot
+    - Number of players: 2
+2. Equipment
+    - Board dimensions: 3x3
+    - List of pieces: A, V
+    - Initial board setup: All spaces left blank
+    - Piece distribution: Player 1 has infinite A’s, Player 2 has infinite V’s
+3. Gameplay
+    - Turn order: Each player takes one action per turn. Player 1 begins.
+    - Valid player actions: Each player must place one of their pieces on an unoccupied space on the board.
+    - Piece characteristics: Both piece types are equivalent, and may only be placed, not moved. Each may only be played by their respective player.
+    - Win/loss conditions: The first player to fill an entire row, column, or 3-space diagonal with only their pieces wins. If neither manage it, it’s a tie.
+4. Additional rules
+    
+    None

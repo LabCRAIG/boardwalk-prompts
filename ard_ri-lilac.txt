@@ -1,0 +1,31 @@
+1. General Information
+    - Game name: Lilac
+    - Number of players: 2
+2. Equipment
+    - Board dimensions: 7x7
+    - List of pieces: A, V, Â
+    - Initial board setup:
+        
+        __VVV__
+        
+        ___V___
+        
+        V_AAA_V
+        
+        VVAÂAVV
+        
+        V_AAA_V
+        
+        ___V___
+        
+        __VVV__
+        
+    - Piece distribution: Player 1 controls the V’s. Player 2 controls the A’s and Â. All the pieces are the ones initially on the board.
+3. Gameplay
+    - Turn order: Players take one action per turn. Player 1 begins.
+    - Valid player actions: A player may only move one of their pieces per turn. All pieces may only move orthogonally, one space at a time.
+    - Piece characteristics: The Â is the only piece that can occupy the very center of the board. Otherwise, all pieces are equivalent.
+    - Win/loss conditions: Player 1 wins if they capture the Â. Player 2 wins if the Â reaches any space on the borders of the board.
+4. Additional rules
+    
+    If a piece is sandwiched between two opposing pieces (considering only orthogonal adjacencies), then that piece is captured and removed from the board.

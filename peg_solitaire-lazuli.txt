@@ -1,0 +1,16 @@
+1. General Information
+    - Game name: Lazuli
+    - Number of players: 1
+2. Equipment
+    - Board dimensions: 7x7
+    - List of pieces: X
+    - Initial board setup: The board is in the shape of a cross, each line being 3x7 and passing through the middle. All spaces are filled with X’s, except for the very center.
+    - Piece distribution: The only pieces are the ones initially on the board.
+3. Gameplay
+    - Turn order: This is a single player game.
+    - Valid player actions: The only valid move is to capture one piece with another; that is, to move one piece either horizontally or vertically over an adjacent piece and landing on a free space right beyond it.
+    - Piece characteristics: There is only one type of piece.
+    - Win/loss conditions: The player wins if they have only one piece left and it occupies the very center of the board. If those conditions are not met and they have no movements left, they lose.
+4. Additional rules
+    
+    Every move will remove the piece being jumped over (the one between the initial and final position of the moved piece).

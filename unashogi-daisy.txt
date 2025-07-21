@@ -1,0 +1,40 @@
+1. General Information
+    - Game name: Daisy
+    - Number of players: 2
+2. Equipment
+    - Board dimensions: 9x9
+    - List of pieces: A, B, C, D, E, F, G, H, a, b, c, d, e, f, g, h
+    - Initial board setup: Board empty
+    - Piece distribution: Player 1 controls A, B, C, D, E, F, G, H. Player 2 controls a, b, c, d, e, f, g, h. Each player has 20 pieces in reserve, in the following amounts:
+        - A, a: 1
+        - B, b: 1
+        - C, c: 1
+        - D, d: 2
+        - E, e: 2
+        - F, f: 2
+        - G, g: 2
+        - H, h: 9
+3. Gameplay
+    - Turn order: Players alternate, taking one action per turn. Player 1 starts.
+    - Valid player actions: During a turn, a player must do one of three things:
+    - place a piece from the reserve on a free space on the board
+    - move a previously placed piece to a free space
+    - move a piece to a space occupied by an opposing piece, capturing it.
+        
+        A player may not make a capture until their own a or A is on the board.
+        
+    - Piece characteristics:
+        - A, a: moves one space in any direction
+        - B, b: moves any number of spaces orthogonally, so long as all spaces are free
+        - C, c: moves any number of spaces diagonally, so long as all spaces are free
+        - D, d: moves one square in any direction except diagonally backwards
+        - E, e: moves one square diagonally or one square forward orthogonally
+        - F, f: moves two spaces forward and then one space either left or right
+        - G, g: moves any number of spaces only orthogonally forward
+        - H, h: moves one space forward orthogonally
+    - Win/loss conditions: Player 1 wins if they capture the a. Player 2 wins if they capture the A.
+4. Additional rules
+    
+    When a player captures an opposing piece, they add it to their reserve as an instance of their piece type equivalent to the one captured (e.g. if Player 1 captures a b, they gain a B).
+    
+    “Forward” means upward for the uppercase pieces and downard for the lowercase pieces. The opposite is true for “backwards”.

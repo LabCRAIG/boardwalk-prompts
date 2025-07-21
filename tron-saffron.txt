@@ -1,0 +1,16 @@
+1. General Information
+    - Game name: Saffron
+    - Number of players: 2
+2. Equipment
+    - Board dimensions: 8x8
+    - List of pieces: A, B, a, b
+    - Initial board setup: 1 A and 1 B, on the center of the board, diagonally opposite each other.
+    - Piece distribution: There are only the starting A, controlled by Player 1, and the starting B, controlled by Player 2. The a’s and b’s are markers which will be placed as gameplay progresses.
+3. Gameplay
+    - Turn order: Players alternate, placing one piece per turn. Player 1 begins.
+    - Valid player actions: Each turn, a player may move their respective piece into one orthogonal space, provided the opponent’s piece is not on that space.
+    - Piece characteristics: Whenever A moves, an a is placed on the position it previously occupied. Likewise for B, with b.
+    - Win/loss conditions: If a player moves their piece onto a space occupied by either type of marker, they lose. The other player wins.
+4. Additional rules
+    
+    None
