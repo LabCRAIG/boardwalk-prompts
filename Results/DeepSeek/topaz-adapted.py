@@ -174,13 +174,13 @@ class Topaz(Game):
 
 if __name__ == '__main__':
     # Create initial board layout
-    layout_str = """   _  _  _
-     _ _ _ 
-      ___  
-    ___ ___
-      ___  
-     _ _ _ 
-    _  _  _"""
+    layout_str = """_     _     _
+    _   _   _ 
+    _ _ _ 
+    _ _ _   _ _ _
+    _ _ _
+    _   _   _
+    _     _     _"""
     
     # Convert to proper layout string for Board class
     layout_lines = [line.strip() for line in layout_str.split('\n')]

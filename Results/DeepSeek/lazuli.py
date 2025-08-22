@@ -88,13 +88,13 @@ class Lazuli(Game):
 
 # Initial board setup
 initial_layout = (
-    "  XXX  \n"
-    "  XXX  \n"
+    "  XXXXX\n"
+    "  XXXXX\n"
     "XXXXXXX\n"
-    "XXX_XXX\n"
+    "XXXX_XX\n"
     "XXXXXXX\n"
-    "  XXX  \n"
-    "  XXX  "
+    "  XXXXX\n"
+    "  XXXXX"
 )
 
 if __name__ == '__main__':
