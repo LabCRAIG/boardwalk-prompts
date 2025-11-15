@@ -1,0 +1,1 @@
+the board is 5x5, and a winning line must be 5 in a row.

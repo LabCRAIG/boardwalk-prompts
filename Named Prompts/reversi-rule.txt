@@ -1,0 +1,1 @@
+each player has a single special piece (the king) of their color which they can play at any time. When played, the king acts as a normal piece. However, the opponent can’t capture any line that contains the king.

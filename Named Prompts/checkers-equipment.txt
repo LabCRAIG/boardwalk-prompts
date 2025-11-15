@@ -1,0 +1,1 @@
+pieces can occupy both black and white spaces on the board, but still move only diagonally. Players start with pieces only on the two rows closest to them, with all spaces occupied.

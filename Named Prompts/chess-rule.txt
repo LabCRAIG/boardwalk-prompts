@@ -1,0 +1,1 @@
+bishops can convert opposing pawns horizontally adjacent to them into their own color, and queens can swap places with one of their rooks if both occupy spaces the same color as them. Both of these actions count as that player’s action for their turn.

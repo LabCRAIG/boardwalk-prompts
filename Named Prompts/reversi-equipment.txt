@@ -1,0 +1,1 @@
+no pieces can be played on the 2x2 squares on each corner of the board.

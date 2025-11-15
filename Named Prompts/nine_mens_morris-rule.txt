@@ -1,0 +1,1 @@
+if a mill is formed on the edge of one of the squares, the player can only remove an opponent’s piece on that same square.

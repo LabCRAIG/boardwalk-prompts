@@ -1,0 +1,1 @@
+the game is won when two pieces are left and one cannot capture the other.

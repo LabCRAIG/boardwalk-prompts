@@ -1,0 +1,1 @@
+if a king captures another, both are removed from the board.

@@ -1,0 +1,1 @@
+knights start on the center four spaces, with knights of the same color being diagonally adjacent (like in Reversi). The typical knight starting spaces are left empty.
