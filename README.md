@@ -1,3 +1,7 @@
+# About this repository
+
+This repository contains the prompts used and results obtained from our experiments with prompting LLMs to generate board game code.
+
 # Prompting Schemes
 
 The models were prompted differently depending on the desired mode of implementation. For the purposes of this document, `$DOC` refers to the API's documentation in Markdown, `$RULES` refers to the entire description of that game's rules, and `$CODE` refers to the code implemented for that game as a result of the independent test.
