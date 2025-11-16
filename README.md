@@ -1,9 +1,9 @@
 # About this repository
 
-This repository contains the prompts used and results obtained from our experiments with prompting LLMs to generate board game code, with and without our [Boardwalk API][https://github.com/LabCRAIG/boardwalk]. Our experiments are as reported in our papers:
+This repository contains the prompts used and results obtained from our experiments with prompting LLMs to generate board game code, with and without our [Boardwalk API](https://github.com/LabCRAIG/boardwalk). Our experiments are as reported in our papers:
 
-* [Boardwalk: Towards a Framework for Creating Board Games with LLMs][https://arxiv.org/abs/2508.16447]
-* [Usando LLMs para Programar Jogos de Tabuleiro e Variações][https://arxiv.org/abs/2511.05114]
+* [Boardwalk: Towards a Framework for Creating Board Games with LLMs](https://arxiv.org/abs/2508.16447)
+* [Usando LLMs para Programar Jogos de Tabuleiro e Variações](https://arxiv.org/abs/2511.05114)
 
 Each paper relates to a separate phase of experiments; the rules phase gave models the explicit rules of each game they were to implement, while the named phase referred to the games only by name, sometimes also informing variations in their rules, described in natural language.
 
